@@ -3,7 +3,7 @@ body{
     height: 100vh;
     margin: 0;
     font-family: 'Mouse Memoirs', sans-serif;
-    background-image: url(./img/pets.png);
+    background-image: url(pets.png);
     color: rgb(227, 182, 231);
     margin: 0;
     font-size: 16px;
