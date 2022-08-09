@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet survey</title>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <h1 class="title">Pet Adoption Survey Form<h1>
+    <img src="https://th.bing.com/th/id/OIP.9TyFI77cNes3askPhXYYZwHaDy?pid=ImgDet&rs=1" alt="pet adoption">
+    
+<form class="survey-form">
+  <p class="description">Your opinion about pets is important</p>
+    <p>Enter your info</p>
+<fieldset>
+<label class="name-label">Name<input class="name" type="text"  name="name" required/></label>
+<label class="email-label">Email<input class="email" type="email" name="email"  required/></label>
+<label class="number-label">Age<input class="number" type="number" name="number" min="10" max="120"  required/></label>
+<select class="dropdown" name="gender">
+  <label class="gender">
+  <option value="">(select one)</option>
+  <option value ="1" >Male</option>
+  <option value="2">Female</option>
+</select>Gender</label>
+</fieldset>
+
+<fieldset><p>Would you adopt a pet?</p>
+<label for="y/n-answer" >
+<input class="y-n-answer" type = "radio" name="y/n-answer" required value="yes"/>Yes 
+<input class="y-n-answer" type = "radio" name= "y/n-answer" required value="no"/>No
+<input class="y-n-answer" type = "radio" name= "y/n-answer" required value="maybe"/>Maybe
+</label></fieldset>
+<fieldset><p>Which of these animals would you adopt?<p>
+  <input type = "checkbox" value="cat"/>Cat
+  <input type = "checkbox" value="dog"/>Dog
+  <input type = "checkbox" value="rabbit"/>Rabbit
+  <input type = "checkbox" value="hamster"/>Hamster
+  <input type = "checkbox" value="other"/>Other
+  <p>What is your opinion about pet adoption?</p>
+  <textarea></textarea>
+  <input type="submit" id="submit"/>
+</fieldset>
+      </form>    
+ 
+</body>
+</html>
